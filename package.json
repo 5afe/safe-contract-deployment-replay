@@ -1,0 +1,16 @@
+{
+  "name": "safe-contract-deployment-replay",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "testnet": "ganache-cli -s 1337 --noVMErrorsOnRPCResponse",
+    "deploy": "ts-node deploy.ts"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.8",
+    "ganache-cli": "^6.12.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
